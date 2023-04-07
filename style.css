@@ -6,17 +6,6 @@ body{
     background: url(Source/font.png) no-repeat center fixed;
     background-size: cover;
 }
-
-.jumbotron-hero {
-    background-image: url("house.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    padding-top: 15%;
-    z-index: 1;
-    white-space: nowrap;
-  }
   
 .stars{
     position: fixed;
@@ -38,30 +27,13 @@ body{
     color: rgb(175, 74, 179);
 }
 
-.carousel-image {
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg-img-1 {
-    background-image: url('Source/appart1.jpeg');
-}
-
-  .bg-img-2 {
-    background-image: url('Source/appart2.jpg');
-}
-
- .bg-img-3 {
-    background-image: url('Source/appart3.jpeg'); 
-}
-
 /* ----- misc ----- */
 
 button{
     cursor: pointer;
 }
 
-/* body{
+
+body{
     overflow: hidden;
-} */
+}
