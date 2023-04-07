@@ -38,12 +38,30 @@ body{
     color: rgb(175, 74, 179);
 }
 
+.carousel-image {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-1 {
+    background-image: url('Source/appart1.jpeg');
+}
+
+  .bg-img-2 {
+    background-image: url('Source/appart2.jpg');
+}
+
+ .bg-img-3 {
+    background-image: url('Source/appart3.jpeg'); 
+}
+
 /* ----- misc ----- */
 
 button{
     cursor: pointer;
 }
 
-body{
+/* body{
     overflow: hidden;
-}
+} */
