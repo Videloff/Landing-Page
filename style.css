@@ -1,0 +1,49 @@
+/* ----- background ----- */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Source/font.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.jumbotron-hero {
+    background-image: url("house.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 15%;
+    z-index: 1;
+    white-space: nowrap;
+  }
+  
+.stars{
+    position: fixed;
+    margin-top: -136px;
+    margin-left: -430px;
+    z-index: -1;
+}
+
+.tep{
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.imo{
+    font-weight: bold;
+    font-size: 60px;
+    
+    color: rgb(175, 74, 179);
+}
+
+/* ----- misc ----- */
+
+button{
+    cursor: pointer;
+}
+
+body{
+    overflow: hidden;
+}
